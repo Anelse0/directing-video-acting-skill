@@ -1,0 +1,4 @@
+interface:
+  display_name: "Directing Video Acting"
+  short_description: "Turns dramatic intent into playable AI-video acting"
+  default_prompt: "Use $directing-video-acting to turn this scene into a production-ready AI-video character-performance prompt, adapting it only when a target model or workflow is specified."
