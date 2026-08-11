@@ -2,6 +2,33 @@
 
 Use this reference only when the user's inner state is layered, contradictory, ambiguous, invented, or difficult to make playable. The main Skill owns the general compiler.
 
+## Contents
+
+- Establish psychological truth before movement
+- Parse conflict as action
+- Turn contradiction into a coherent playable strategy
+- Choose the carrier
+- Keep temporal scope honest
+- Example of derivation
+
+## Establish psychological truth before movement
+
+The camera records behavior, but behavior becomes specific only after the character's interpretation is clear. Separate:
+
+```text
+FACT: what actually happens in the scene
+APPRAISAL: what this character believes it means now
+OBJECTIVE: what they need to make happen next
+TACTIC: how they try to make that happen
+COUNTERFORCE: the relationship, duty, fear, status, or self-image that limits the tactic
+PUBLIC READ: what they want the other character to believe
+AUDIENCE READ: what the audience should be able to infer by the cut
+```
+
+The two reads may differ. The same public action can look punitive to its recipient while privately absorbing a cost or protecting them. A character can be wrong about another person's motive; preserve that misunderstanding because it governs the performance.
+
+Do not invent a hidden motive merely to create subtext. When the user supplies no contradiction, a direct objective played cleanly is stronger than synthetic complexity.
+
 ## Parse conflict as action
 
 Do not map a state name to a standard face or body pattern. Facial and bodily cues are many-to-many and context-dependent. Instead, write a free-form internal plan:
@@ -9,11 +36,14 @@ Do not map a state name to a standard face or body pattern. Facial and bodily cu
 ```text
 SCENE FACTS: immutable user facts
 PATH: event-driven or sustained
+APPRAISAL / KNOWLEDGE GAP: what the event means to this character; who knows what
 OBJECTIVE OR TASK: what the character tries to obtain, protect, test, finish, or avoid
 TRIGGER: only if something changes during the shot
 COUNTERFORCE: an actual competing duty, belief, relationship need, or physical limit
-DISPLAY CHOICE: only if revealing, containing, redirecting, or ignoring matters
-PLAYABLE ACTION: behavior toward a person, object, task, or space
+PUBLIC TACTIC: what the character does to affect the partner or preserve the role
+PRIVATE PRESSURE: only if the public tactic carries a real cost or contradiction
+TURN: tactic changes, fails, succeeds at a cost, or is deliberately maintained
+PLAYABLE CARRIER: one scene-native behavior toward a person, object, task, or space
 CUT STATE: the held condition, threshold, or action at the edit
 ```
 
@@ -24,6 +54,7 @@ For an unfamiliar abstract state, ask internally:
 1. What does this person try to make happen next?
 2. What makes that action difficult or changes its meaning?
 3. Which visible choice or action change can carry both forces without an anatomy inventory?
+4. What would this particular person do because of their role, relationship, power, and existing task—not because of an emotion label?
 
 This handles a user-created state without naming or classifying it.
 
@@ -37,6 +68,10 @@ Several emotions do not require several simultaneous expressions. Translate them
 - When several tactics could serve the same objective, choose the one that best carries the contradiction. Do not stack alternative tests, gestures, or invented partner compliance merely because runtime is unspecified.
 
 Containment is playable only when the prompt defines what the character preserves: professional speech, another person's comfort, a routine, a boundary, or a practical task. `Hides emotion` alone supplies no action.
+
+Translate supplied traits into tactics. A controlling character may manage information, sequence, distance, or the terms of the conversation; a practiced caretaker may protect the other person's comfort by continuing a routine. Do not turn `controlling`, `sensitive`, or `repressed` into fixed jaw, gaze, or breath cues. If no personality is supplied, use the relationship and task rather than inventing a biography.
+
+Choose one tactic that distinguishes the trait under this pressure. Do not make a controlling person align several objects, issue several checks, and manage several distances in the same beat merely to prove control; do not make a caretaker perform a chain of comforts merely to prove care.
 
 Avoid using `starts to ... then stops` as a universal sign of conflict. Interruption must affect an action the character plausibly intended to complete.
 
@@ -60,6 +95,10 @@ The body stays oriented toward the exit while the gaze returns once to the child
 ```
 
 Do not assign truth, guilt, or a universal emotional meaning to an isolated cue. The objective and scene establish its meaning.
+
+Prefer a carrier with double dramatic duty: it performs the public tactic while exposing its private cost. A transferred task or object can look like punishment to its recipient while absorbing risk for the person who takes it; an unchanged polite greeting can become a refusal to acknowledge intimacy. Avoid decorating the carrier with a second leak unless the audience could not otherwise read the turn.
+
+Use stock low-amplitude cues—smile fading, gaze breaking, lips parting, breath catching, jaw setting, reaching then stopping—only when that exact change grows from the scene. They are available tools, not proof of depth. If any could be swapped into an unrelated scene, return to the task, prop, space, or line.
 
 ## Keep temporal scope honest
 

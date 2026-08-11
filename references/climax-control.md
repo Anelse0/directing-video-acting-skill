@@ -13,6 +13,8 @@
 
 Treat a climax as a threshold after which the character cannot continue the same strategy, belief, relationship, or choice. Do not equate climax with maximum facial intensity, crying, shouting, collapse, or loss of control.
 
+The climax belongs to the last workable tactic, not to an emotion meter. Identify what the character has been doing successfully—appeasing, managing procedure, joking, denying, caring for someone else, attacking, or staying useful—and make the threshold the moment that strategy becomes impossible, changes owner, or is consciously abandoned.
+
 A threshold may be:
 
 - confirmation that changes what the character knows;
@@ -53,6 +55,8 @@ Do not multiply recovery attempts, swallows, gaze breaks, or escalating breaths 
 For restraint, define what the character preserves—finishing a sentence, protecting another person, remaining professional, completing a task—not merely what the character suppresses.
 
 For confrontation, define what each person wants from the exchange. Intensity can come from a sudden reduction in movement or volume if it changes the partner's behavior.
+
+In a relational climax, transfer consequence across the scene. One person's line, silence, departure, contact, or refusal should alter what the other can do next. Avoid two characters performing separate peaks in parallel.
 
 For a panic-like or dysregulated episode, select only the functional disruption and coping, protective, or escape behavior that the scene requires. Do not stack every possible symptom or claim a medical diagnosis.
 
@@ -97,6 +101,8 @@ The end need only be explicit; it does not need to be calm or exhausted. Choose 
 - the edit cuts exactly on the line, look, contact, or departure.
 
 Avoid returning to the opening smile or posture unless deliberate recovery is the story.
+
+Treat aftermath as a new condition, not an extra symptom beat. Show what can no longer continue, who now owns the silence or object, how a routine resumes differently, or which relationship action is no longer available. Exhaustion, numbness, embarrassment, regret, recovery, and residual agitation are options only when the scene earns them.
 
 ## Diagnose false climaxes
 

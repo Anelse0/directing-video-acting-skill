@@ -2,6 +2,17 @@
 
 Use only the modules the exchange needs. Ordinary speech and stable listening do not require an emotional turn.
 
+## Contents
+
+- Assign ownership
+- Direct subtext
+- Direct listening
+- Coordinate speech and action
+- Handle interruption and silence
+- Stage several characters
+- Choose the shot structure
+- Repair failures
+
 ## Assign ownership when it can become ambiguous
 
 For a solo line or obvious two-person exchange, a stable character name beside the exact line is enough. Build an explicit ownership note only for multiple characters, interruptions, overlapping reactions, or unclear attribution. Include only roles the exchange actually uses, such as:
@@ -14,6 +25,19 @@ affected reaction owner; holder of the cut state
 One character may hold several roles. Describe a non-owner only when that person is likely to mouth the line, react at the wrong time, block another subject, or materially affect the composition. Do not give every background character an animation task.
 
 Use stable, unique names. In a multi-character prompt, do not alternate among names, pronouns, clothing labels, and generic roles when identity could drift.
+
+## Direct subtext as an action on the partner
+
+Keep quoted words exact, then decide what the line is doing in this relationship: testing, protecting, dismissing, recruiting, stalling, punishing, ending, asking for permission, or refusing it. This is free-form dramatic reasoning, not a finite line-type list.
+
+For each important turn, answer only what matters:
+
+- What does the speaker want the listener to believe or do after this line?
+- What does the listener expect or fear hearing?
+- At which word, omission, delivery change, or accompanying action does the listener's interpretation change?
+- Does the listener accept the intended meaning, resist it, or hear a different meaning?
+
+Let delivery and one accompanying action serve that tactic. Do not translate subtext into a generic `quiet voice + tightened hand` combination. When speaker and listener have unequal knowledge, keep both readings legible through action without adding explanatory dialogue.
 
 ## Direct listening as purposeful attention
 
@@ -30,6 +54,12 @@ prepare to speak or interrupt; choose silence
 ```
 
 Do not force a gaze break. A listener may hold the speaker's gaze, inspect relevant evidence once, keep working while listening, or disengage. Name the target whenever gaze moves. Avoid periodic gaze cycling, repeated nodding, and generic `listens naturally`.
+
+Listening begins when meaning becomes available, not automatically after the sentence ends. A listener may alter a task mid-line, recognize the subtext only after an omission, wait through the whole line because they expected it, or deliberately give the speaker no visible acknowledgment. Do not add a reaction beat merely because the listener has been silent.
+
+If no one speaks or otherwise communicates, do not manufacture “listening” through nods, agreeable gaze, or invented partner gestures. Direct attention, surveillance, waiting, shared task, or spatial negotiation instead—whichever the supplied scene actually contains.
+
+A routine acknowledgment is not automatically acting. Remove a nod, smile, or gaze return that only illustrates polite attention. Keep it when it deliberately encourages disclosure, ends or yields a turn, conceals resistance, changes status, or alters the partner's next action.
 
 Examples of bounded listening:
 
@@ -58,6 +88,8 @@ His volume remains courteous while he returns her key to the table.
 ```
 
 Do not specify pitch, pace, volume, accent, gaze, hand choreography, posture, and breath all at once unless the duration and workflow can carry them. Preserve the user's punctuation and dialogue language; translate only when asked.
+
+After the line, show its consequence before adding another expression: the partner abandons a reply, changes distance, returns an object, continues the task differently, or owns the silence. If nothing changes because refusal to react is the tactic, hold that refusal and cut.
 
 ## Interruption, false starts, and silence
 

@@ -38,19 +38,31 @@ Infer harmless omissions and continue. Ask only when a missing choice would mate
 - No framing: infer it only when the requested behavior would otherwise be invisible or ambiguous.
 - State material creative assumptions only when necessary, and keep them brief.
 
-### 2. Find the playable action
+### 2. Make the performance decision
 
-Use emotion words as context, not as a lookup key. Infer in free text:
+Use emotion words as context, not as a lookup key. Before choosing movement, form one private performance thesis:
 
-- what each relevant character is trying to accomplish now;
-- what event, line, object, or ongoing task governs the shot;
-- what competes with that objective, if anything;
-- what the character reveals, contains, redirects, tests, completes, abandons, or refuses;
-- what must be true at the cut.
+```text
+Because the character reads [fact] as [meaning], they try to [immediate objective]
+by [tactic]. When relevant, [counterforce] limits that tactic, and the shot turns
+when [the tactic changes, fails, succeeds at a cost, or is deliberately maintained].
+```
 
-For mixed or invented states, resolve competing objectives rather than stacking stock expressions. Suppression, leakage, escalation, release, and aftermath are optional dramatic functions, never mandatory stages.
+Do not print this thesis or force every clause. Build only the parts supported by supplied facts or a harmless, minimal assumption. Distinguish what happened from what the character believes happened; preserve a supplied misunderstanding instead of correcting it. Use relationship, power, current task, prior state, and stated personality only when available. Translate a personality into a strategy under pressure—not a standard face or gesture.
 
-### 3. Choose the temporal path
+Decide:
+
+- what the character wants the other person to do, believe, permit, or stop;
+- what public action or role they must keep performing;
+- what private pressure competes with it, when the scene contains a contradiction;
+- what tactic they use now, and whether the dramatic event is a tactic change, a refusal to change, or simply the cost of continuing;
+- what the audience should understand at the cut, and what the other character should understand; these may differ.
+
+Let the public tactic occupy most of the performance. Carry private pressure through one changed choice, omission, interruption, or scene-native action rather than a second simultaneous “emotion performance.” For mixed or invented states, resolve competing objectives instead of stacking stock expressions. Suppression, leakage, escalation, release, and aftermath are optional dramatic functions, never mandatory stages.
+
+### 3. Choose the dramatic unit and temporal path
+
+First decide what this shot is actually about: continuing a task under changed meaning, recognizing something, testing a belief, switching tactics, crossing a threshold, or living in the aftermath. Do not compress the whole emotional lifecycle into every shot. A short shot may need only one altered action; a longer shot earns another beat only when it changes the character's choice, the partner's behavior, or the relationship.
 
 Use the smallest path that fits the scene:
 
@@ -65,11 +77,13 @@ Use the event-driven path only when something changes the character during the s
 
 Add orientation, processing, control, redirection, failed recovery, threshold, release, or aftermath only when causally useful. Immediate reaction can be truthful; do not force a pause. If the shot cuts at a threshold, make that cut explicit and do not append aftermath.
 
+Let interpretation determine delay. A reflex, an expected answer, and a fact the character already suspected may land immediately; an ambiguous clue may require verification. Do not use a pause merely to signal seriousness.
+
 Prefer only the relative-order terms the scene needs. Avoid choreographing every second. Treat exact intra-shot micro-timing as best-effort unless a documented control surface provides it; never promise frame accuracy.
 
 ### 4. Select observable evidence
 
-Start with the smallest observable behavior set that carries the beat. Add support or a motivated contradiction only when it contributes distinct causal information and remains legible in the duration and framing. Choose behavior by objective and context, not from a body-part checklist.
+Start with the smallest observable behavior set that carries the beat. Prefer a carrier already native to the scene—the task, prop, distance, turn-taking, route, unfinished work, or expected social ritual—before adding a generic facial or physiological cue. Add support or a motivated contradiction only when it contributes distinct causal information and remains legible in the duration and framing. Choose behavior by objective and context, not from a body-part checklist.
 
 Every retained instruction should be:
 
@@ -80,6 +94,13 @@ Every retained instruction should be:
 - capable of distinguishing the intended beat from its surrounding state.
 
 Use an abstract state anchor only when it clarifies intent, and keep it subordinate to playable behavior. Let purposeful gaze, task interruption/completion, distance, a relevant prop, speech timing, or stillness with a visible carrier do the acting. Use breath, swallowing, jaw, blinking, or tears only when the framing/audio can carry them and the scene motivates them. Never treat a cue as a diagnostic fingerprint.
+
+Do not invent a partner gesture, line, reaction, or compliance merely to give the main character something to respond to. When the partner's behavior is unspecified, keep it neutral or let the supplied task carry the scene. Describe visible partner state rather than guaranteeing what that person internally understands or feels.
+
+Stillness and successful concealment may be the right design. Do not add a leak merely to prove that emotion exists. If the task continues unchanged, make its changed meaning readable through timing, ownership, omission, partner consequence, or the cut state. Apply two deletion tests:
+
+- If removing an optional behavior does not change what the audience infers about the objective, relationship, or decision, remove it.
+- If the behavior could be pasted into a different character and relationship with only the emotion word changed, replace it with a more scene-specific choice.
 
 ### 5. Control density without losing intent
 
@@ -95,6 +116,10 @@ identity and owner -> required scene facts/task or trigger -> ordered action
 
 Do not enumerate face, eyes, breath, shoulders, hands, posture, camera, light, and environment merely because those channels exist.
 
+Do not compensate for a weak performance decision by adding more bounded micro-actions. One action carrying two meanings is usually stronger than two actions each illustrating one feeling.
+
+Likewise, do not prove a supplied personality through several synonymous tactics. Once one choice clearly shows how this person handles the pressure, let the partner consequence or cut state finish the beat.
+
 ### 6. Render for the selected workflow
 
 Keep the acting logic model-agnostic; then apply only the chosen model profile. Separate UI/API setup from prompt prose. Do not present planning labels such as `Trigger:` or delivery headings as official platform fields unless the interface defines them.
@@ -108,9 +133,14 @@ Apply only relevant checks:
 - Scene facts, dialogue, references, workflow, duration, ending, and constraints are preserved.
 - An event-driven response has an identifiable trigger; a sustained scene has no invented trigger.
 - Behavior serves an objective, task, response, or choice and is observable at the implied framing.
+- The prompt preserves the character's interpretation, public tactic, private pressure when relevant, and knowledge gap; it does not merely illustrate an emotion.
+- When the user supplies relationship, task, status, or character context, at least one retained choice uses it. A character-name swap should not leave a context-rich performance unchanged.
 - Major actions are ordered; simultaneous reactions occur only when motivated.
 - Shot responsibilities remain legible, optional cues do not compete, and the ending is an explicit cut point or held state.
 - Dialogue ownership and any listener behavior that matters are unambiguous.
+- A line acts on the listener; when a listener changes, the change follows the relevant meaning rather than the sentence ending by convention. Do not invent listening activity when no one communicates anything.
+- A routine nod, smile, gaze return, or other social acknowledgment remains only if it changes the tactic, turn, power, or relationship—not merely to show that the character is alive.
+- A climax changes a tactic, function, choice, or relationship; an aftermath establishes a new condition instead of appending generic fatigue.
 - Configuration is separate from prose; no unsupported promise is made about timing, lip sync, negatives, gaze, or model superiority.
 - A negative remains only when the user supplied it, an observed failure justifies it, or an entry-specific risk requires it; use a positive replacement first where possible.
 

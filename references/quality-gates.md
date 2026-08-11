@@ -25,6 +25,29 @@ If all user-required beats do not plausibly fit, merge or split before dropping 
 
 Delete a sentence that only repeats an emotion adjective or decorative style word without changing what can be generated.
 
+## Performance judgment audit
+
+Do not pass a prompt merely because it is concrete, ordered, and detailed. Test the director's choices:
+
+1. **Psychological chain:** Can you state the fact, the character's interpretation, immediate objective, tactic, counterforce, and turn without contradicting the prompt? Omit absent components; do not invent them to fill a schema.
+2. **Subtext:** When public behavior differs from private pressure, does one action carry both readings? Does the listener receive the intended meaning, a mistaken meaning, or a chosen refusal?
+3. **Restraint:** Is stillness, omission, continuation, or delayed action considered before adding a leak? Does the prompt avoid proving emotion through activity?
+4. **Necessity:** Remove each optional behavior mentally. If the relationship, decision, and cut read the same, delete it.
+5. **Specificity:** Could the performance survive a name and emotion swap into an unrelated scene? If yes, replace stock cues with the scene's task, object, space, status, or exact line.
+6. **Listening:** Does the listener have something specific to hear, seek, resist, or misunderstand? If the listener changes, does that change occur when meaning lands rather than by turn-taking convention?
+7. **Contradiction:** Are mixed states resolved into competing objectives or readings instead of alternating facial labels?
+8. **Climax:** Does the peak change a tactic, function, decision, or relationship? Greater volume or more symptoms alone fails.
+9. **Aftermath:** If the shot continues, does the threshold create a new condition rather than generic fatigue or a reset?
+10. **Character:** Do supplied personality, power, relationship, prior state, and role materially affect the tactic? Do not invent them when absent.
+
+Fail character specificity if a trait is either ignored or demonstrated through a pile of synonymous actions. One consequential tactic is enough.
+
+Compare against a literal baseline: if the Skill version is merely longer or more anatomically explicit, it fails. It must add a playable choice, knowledge gap, tactic, consequence, or scene-specific carrier that changes how the audience understands the character.
+
+Stock cues such as `smile fades`, `looks away`, `lips part then close`, `breath catches`, `jaw tightens`, and `reaches then stops` are not prohibited. Flag them when they substitute for a performance decision or appear in interchangeable combinations.
+
+Also flag invented partner behavior that exists only to trigger the protagonist, routine social acknowledgments that do not change the exchange, and claims about what another character internally understands. Replace them with supplied communication, a neutral partner baseline, or an observable consequence.
+
 ## Positive-first constraints
 
 First define the desired resting state and allowed action:
@@ -64,5 +87,3 @@ Change one variable per regeneration when diagnosing. A beautiful result that ig
 ## Production evaluation
 
 For rendered-video comparison, generate repeated samples and score trigger clarity where applicable, beat order, listening purpose, body/action congruence, threshold/cut, speaker attribution and lip sync, identity/artifacts, and perceived naturalness. Record requested behavior as `executed`, `partial`, `missing`, or `reversed`. Keep Standard, Omni, Motion Control, single-shot, and Multi-Shot as separate conditions. One prompt answer or one curated video cannot establish a model rule.
-
-Record requested behavior as `executed`, `partial`, `missing`, or `reversed`. Keep Standard, Omni, Motion Control, single-shot, and Multi-Shot as separate conditions.
